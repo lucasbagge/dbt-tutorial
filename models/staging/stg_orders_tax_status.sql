@@ -4,4 +4,7 @@ WITH source AS (
 
 )
 
-select * from source
+select 
+    * 
+    , CURRENT_TIMESTAMP() AS ingestion_timestamp
+from source
