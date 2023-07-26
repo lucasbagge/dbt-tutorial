@@ -14,3 +14,16 @@ Try running the following commands:
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 # dbt-tutorial
+
+
+## FInd profiles
+
+```bash
+open /Users/lucasbagge/.dbt
+```
+
+In the terminal we can create multiple files at once
+
+```bash
+for i in {1..10}; do touch "stg_${i}.sql"; done
+```

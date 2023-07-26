@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: northwind_data
+    schema: northwind
+    tables:
+      - name: customer
+      - name: orders
+      - name: employee_privileges
+      - name: employees
+      - name: inventory_transaction_types
+      - name: inventory_transactions
+      - name: invoices
+      - name: order_details_status
+      - name: order_details
+      - name: order_status
+      - name: orders_tax_status
+      - name: privileges
