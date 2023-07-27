@@ -37,3 +37,7 @@ models:
       +enabled: true
       +materialized: table
       +scheme: stg_northwind
+    warehouse:
+      +enabled: true
+      +materialized: table
+      +scheme: dwh_northwind      
